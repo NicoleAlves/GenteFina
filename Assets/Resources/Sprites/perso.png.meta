@@ -55,6 +55,10 @@ TextureImporter:
     maxTextureSize: 256
     textureFormat: -3
     compressionQuality: 50
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -3
+    compressionQuality: 50
   spriteSheet:
     sprites:
     - name: perso_BE
