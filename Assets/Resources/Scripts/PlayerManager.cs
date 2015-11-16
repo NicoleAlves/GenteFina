@@ -44,6 +44,18 @@ public class PlayerManager : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		if (Input.GetKey (KeyCode.D)) {
+			Time.timeScale = 1f;Debug.Log("d");
+		}
+		else{
+			Time.timeScale = 0.8f;
+		}
+
+		if (Input.GetKey (KeyCode.A)) {
+			Time.timeScale = 0.6f;Debug.Log("a");
+		}else{
+			Time.timeScale = 0.8f;
+		}
         if (isWalking)
         {
             transform.position += new Vector3(speed * Time.deltaTime, 0, 0);

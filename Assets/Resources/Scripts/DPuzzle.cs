@@ -51,6 +51,8 @@ public class DPuzzle : Default {
 	// Update is called once per frame
 	new void Update () 
     {
+
+
 	    if(!isSolved && canCall)
         {
             switch(puzzle)
